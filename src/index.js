@@ -9,5 +9,3 @@ root.render(
     <AppRoutes />
   </React.StrictMode>
 );
-
-

@@ -1,10 +1,11 @@
-import Banner from "componentes/Banner"
+import Banner from "componentes/Banner";
 
-export default function Inicio(){
-    return(
+export default function Inicio() {
+    return (
         <main>
             <Banner />
-            <h1>Olá Mundo!</h1>
+
+            <h1>Olá mundo!</h1>
         </main>
     )
 }

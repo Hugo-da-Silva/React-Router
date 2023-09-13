@@ -1,6 +1,6 @@
 import styles from './Banner.module.css';
 import circuloColorido from 'assets/circulo_colorido.png';
-import minhaFoto from 'assets/minha-foto-Hugo.jfif';
+import minhaFoto from 'assets/minha_foto.png'
 
 export default function Banner() {
     return (
@@ -11,22 +11,22 @@ export default function Banner() {
                 </h1>
 
                 <p className={styles.paragrafo}>
-                    Boas vindas ao meu projeto pessoal! Eu sou Hugo da Silva, aluno de Front-end da Alura.Aqui eu compartilho muitos conhecimentos, espero que aprenda algo novo!
+                    Boas vindas ao meu espaço pessoal! Eu sou Antônio Evaldo, instrutor de Front-end da Alura. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
                 </p>
+            </div>
 
-                <div className={styles.imagens}>
-                    <img 
-                        alt='circulo colorido'                        className={styles.circuloColorido}
-                        src={circuloColorido}
-                        aria-hidden={true}
-                    />
+            <div className={styles.imagens}>
+                <img
+                    className={styles.circuloColorido}
+                    src={circuloColorido}
+                    aria-hidden={true}
+                />
 
-                    <img
-                        alt='foto do Hugo'
-                        className={styles.minhaFoto}
-                        src={minhaFoto}
-                    />
-                </div>
+                <img
+                    className={styles.minhaFoto}
+                    src={minhaFoto}
+                    alt="Foto do Antônio Evaldo sorrindo"
+                />
             </div>
         </div>
     )

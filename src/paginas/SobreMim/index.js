@@ -1,5 +1,5 @@
 export default function SobreMim() {
-    return(
+    return (
         <h1>Sobre mim...</h1>
     )
 }
