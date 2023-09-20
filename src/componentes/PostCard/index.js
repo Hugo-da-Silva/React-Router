@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Post.module.css";
+import BotaoPrincipal from "componentes/BotaoPrincipal";
 
 export default function PostCard( {post} ){ // pegando o componente criado dentro da <li> de index inicio 'Post'
     return (
@@ -14,7 +15,7 @@ export default function PostCard( {post} ){ // pegando o componente criado dentr
 
                 <h2 className={styles.titulo}>{post.titulo}</h2>
 
-                <button className={styles.botaoLer}>ler</button>
+                <BotaoPrincipal>Ler</BotaoPrincipal>
             </div>
         </Link>
     )
